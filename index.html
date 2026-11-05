@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alijah Anyagwosi | GIS & Data Analyst</title>
+<meta name="description" content="Portfolio of Alijah Anyagwosi, geographer and GIS/data analyst in New York City.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:wght@600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fbfaf7; --text: #1d2430; --muted: #5b6472; --line: #e3e0d8;
+    --accent: #1f4e79; --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14181f; --text: #e7e9ee; --muted: #9aa3b2; --line: #2a313c; --accent: #7fb2e5; --card: #1a1f27; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 Inter, system-ui, sans-serif; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 56px 20px 72px; }
+  h1, h2, h3 { font-family: "Source Serif 4", Georgia, serif; line-height: 1.2; margin: 0; }
+  h1 { font-size: 2.3rem; }
+  h2 { font-size: 1.35rem; margin: 52px 0 14px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+  h3 { font-size: 1.1rem; }
+  .tagline { color: var(--muted); font-size: 1.1rem; margin: 8px 0 18px; }
+  a { color: var(--accent); }
+  .links { display: flex; flex-wrap: wrap; gap: 10px; }
+  .btn { display: inline-block; padding: 8px 14px; border: 1px solid var(--line); border-radius: 8px;
+         text-decoration: none; font-weight: 500; font-size: .95rem; background: var(--card); }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 22px; margin-bottom: 16px; }
+  .meta { color: var(--muted); font-size: .9rem; margin: 4px 0 10px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+  .tag { font-size: .8rem; padding: 3px 9px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
+  ul { padding-left: 20px; margin: 8px 0 0; }
+  .skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; }
+  .skills div { font-size: .95rem; }
+  .skills strong { display: block; margin-bottom: 2px; }
+  footer { margin-top: 56px; color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<main class="wrap">
+
+  <header>
+    <h1>Alijah Anyagwosi</h1>
+    <p class="tagline">Geographer and GIS &amp; data analyst in New York City</p>
+    <div class="links">
+      <a class="btn primary" href="resume.pdf">Resume</a>
+      <a class="btn" href="mailto:alijahanyagwosi@gmail.com">Email</a>
+      <a class="btn" href="https://linkedin.com/in/alijah-anyagwosi">LinkedIn</a>
+      <a class="btn" href="https://github.com/Alpha-alijah">GitHub</a>
+    </div>
+  </header>
+
+  <h2>About</h2>
+  <p>I'm a CUNY Hunter College graduate with a B.A. in Geography, a minor in Computer Science, and a Spatial Data Science Certificate. I work with spatial and multi-source data: collecting it, checking it for accuracy, analyzing it, and turning it into clear maps, dashboards, and recommendations.</p>
+  <p>Before and alongside my research, I worked in logistics as a dispatcher and delivery associate across Manhattan, which gave me a street-level understanding of how New York moves. I'm especially interested in transit, city planning, and public-sector data work.</p>
+
+  <h2>Projects</h2>
+
+  <article class="card">
+    <h3>Using Weather Stations to Analyze Climate Trends in Urban Environments</h3>
+    <p class="meta">NSF REU Research, CUNY CREST &middot; Jun 2024 – May 2025</p>
+    <p>Original research combining ground weather-sensor readings with NASA POWER satellite data to study climate trends and extreme weather in New York City.</p>
+    <ul>
+      <li>Deployed and maintained a network of weather sensors in the field.</li>
+      <li>Cleaned, validated, and combined multi-source datasets before analysis.</li>
+      <li>Performed spatial suitability analysis of NYC communities in ArcGIS.</li>
+      <li>Presented findings at AGU (2024), AMS (2025), and the MAA Symposium (2025).</li>
+    </ul>
+    <div class="tags">
+      <span class="tag">ArcGIS Pro</span><span class="tag">Python</span><span class="tag">R</span>
+      <span class="tag">SQL</span><span class="tag">Excel</span><span class="tag">Remote sensing</span>
+    </div>
+  </article>
+
+  <h2>Skills</h2>
+  <div class="skills">
+    <div><strong>GIS</strong>ArcGIS Pro, ArcGIS Online, Dashboards &amp; StoryMaps, ArcPy, QGIS, Google Earth Pro</div>
+    <div><strong>Data &amp; programming</strong>Python (Pandas, NumPy), SQL, R, Excel</div>
+    <div><strong>Business intelligence</strong>Power BI (DAX, Power Query), Microsoft 365</div>
+    <div><strong>Design</strong>Adobe Illustrator, Adobe InDesign, ggplot2, Matplotlib</div>
+  </div>
+
+  <footer>&copy; 2026 Alijah Anyagwosi &middot; New York City</footer>
+</main>
+</body>
+</html>
